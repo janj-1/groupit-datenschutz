@@ -25,14 +25,16 @@ E-Mail: noreply.deapp@gmail.com</p>
 
 <h2>2. Welche Daten wir verarbeiten</h2>
 <ul>
-  <li><b>Konto:</b> E-Mail-Adresse bzw. Apple-Anmeldekennung, Name, Benutzername, kurze Bio, Geburtsdatum (nur zur Prüfung des Mindestalters von 18 Jahren).</li>
-  <li><b>Inhalte, die du teilst:</b> Momente (Fotos und Texte), Check-ins (der Ortsname, den du selbst eingibst), Kommentare, Herzen, Events, Terminabstimmungen, Ortsvorschläge, Spontan-Pings und Antworten, Strichlisten-Einträge.</li>
+  <li><b>Konto:</b> E-Mail-Adresse bzw. Apple-Anmeldekennung, Name, Benutzername, kurze Bio, Profilbild (freiwillig), Geburtsdatum (nur zur Prüfung des Mindestalters von 18 Jahren).</li>
+  <li><b>Inhalte, die du teilst:</b> Momente (Fotos und Texte), Check-ins (der Ort, den du auswählst oder eingibst – bei Auswahl aus der Ortssuche auch Adresse und Koordinaten dieses Ortes), Kommentare, Herzen, Events, Terminabstimmungen, Ortsvorschläge, Spontan-Pings und Antworten, Strichlisten-Einträge, Gruppenbilder.</li>
   <li><b>Gruppen und Freunde:</b> Mitgliedschaften, Freundschaftsanfragen, Blockierungen.</li>
   <li><b>Meldungen:</b> Wenn du Inhalte oder Personen meldest, speichern wir die Meldung und den Grund.</li>
   <li><b>Technisch notwendige Daten:</b> Anmelde-Sitzung und Zeitpunkte von Aktionen.</li>
+  <li><b>Push-Mitteilungen:</b> ein Geräte-Kennzeichen (Push-Token) und deine Einstellungen, worüber du benachrichtigt werden willst.</li>
+  <li><b>Zuletzt aktiv:</b> wann du die App zuletzt geöffnet hast. Freunde und Gruppenmitglieder sehen das nur, wenn ihr beide „Zuletzt aktiv“ eingeschaltet habt.</li>
 </ul>
 <p><b>Fotos:</b> Vor dem Hochladen werden Fotos verkleinert und neu gespeichert. Dabei werden versteckte Metadaten wie der Aufnahmeort (GPS) entfernt.<br>
-<b>Standort:</b> Die App greift nicht auf deinen GPS-Standort zu. Bei Check-ins wird nur der Ort gespeichert, den du selbst eintippst; Check-ins sind nur für die gewählte Zeit sichtbar.</p>
+<b>Standort:</b> Die App greift nur auf deinen Standort zu, wenn du beim Einchecken „In der Nähe suchen“ antippst und es erlaubst. Er wird dann nur auf deinem Gerät benutzt, um Orte in deiner Nähe zuerst anzuzeigen, und weder gespeichert noch geteilt. Gespeichert wird nur der Ort, den du auswählst oder eingibst; Check-ins sind nur für die gewählte Zeit sichtbar. Im Geistermodus erscheinen deine Check-ins nicht unter „Gerade unterwegs“.</p>
 
 <h2>3. Wer deine Inhalte sieht</h2>
 <p>Inhalte sind nur für die Mitglieder der Gruppen sichtbar, die du beim Teilen auswählst. Dein Profil sehen nur Freunde und Mitglieder gemeinsamer Gruppen. Blockierte Personen sehen deine Inhalte nicht.</p>
@@ -44,15 +46,16 @@ E-Mail: noreply.deapp@gmail.com</p>
 <ul>
   <li><b>Supabase</b> (Supabase Inc.) – Datenbank, Anmeldung und Foto-Speicher. Die Daten liegen auf Servern in Frankfurt am Main (EU).</li>
   <li><b>Brevo</b> (Sendinblue SAS, Frankreich) – Versand der E-Mails mit dem Anmelde-Code.</li>
-  <li><b>Apple</b> – „Mit Apple anmelden“ (falls du es nutzt) sowie Verteilung der Testversion über TestFlight inkl. freiwilliger Absturzberichte und Feedback.</li>
+  <li><b>Apple</b> – „Mit Apple anmelden“ (falls du es nutzt), Zustellung der Push-Mitteilungen, Ortssuche über Apple Karten (dein Suchbegriff und ggf. ungefährer Standort gehen direkt an Apple) sowie Verteilung der Testversion über TestFlight inkl. freiwilliger Absturzberichte und Feedback.</li>
+  <li><b>Expo</b> (650 Industries Inc., USA) – Weiterleitung der Push-Mitteilungen an Apple. Dabei werden Push-Token und Text der Mitteilung übertragen; Grundlage sind die EU-Standardvertragsklauseln.</li>
 </ul>
 <p>Mit den Dienstleistern bestehen bzw. werden Verträge zur Auftragsverarbeitung geschlossen. Eine Weitergabe an Dritte zu Werbezwecken findet nicht statt.</p>
 
 <h2>6. Speicherdauer</h2>
-<p>Wir speichern deine Daten, solange dein Konto besteht. Check-ins werden nach Ablauf der gewählten Dauer nicht mehr angezeigt. Wenn du dein Konto löschst (Profil → Konto löschen), werden dein Konto und alle zugehörigen Inhalte gelöscht.</p>
+<p>Wir speichern deine Daten, solange dein Konto besteht. Check-ins werden nach Ablauf der gewählten Dauer nicht mehr angezeigt. Wenn du dein Konto löschst (Profil → Menü → Konto löschen), werden dein Konto und alle zugehörigen Inhalte inklusive aller Fotos gelöscht.</p>
 
 <h2>7. Deine Rechte</h2>
-<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Eine Kopie deiner Daten kannst du in der App unter Profil → „Meine Daten exportieren“ abrufen, dein Konto unter Profil → „Konto löschen“ löschen. Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Eine Kopie deiner Daten kannst du in der App unter Profil → Menü → „Meine Daten exportieren“ abrufen, dein Konto unter Profil → Menü → „Konto löschen“ löschen. Außerdem kannst du dich bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
 
 <h2>8. Mindestalter</h2>
 <p>Groupit ist ab 18 Jahren.</p>
